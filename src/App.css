@@ -1,0 +1,108 @@
+@import "~antd/dist/antd.css";
+
+.App {
+  text-align: center;
+  padding: 16px;
+  height: inherit;
+}
+
+/* .video-wrapper-row {
+  height: inherit;
+} */
+
+.video-wrapper-col {
+  background: linear-gradient(180deg, #1a0051, #130632),
+    linear-gradient(
+      105deg,
+      #aca1f7,
+      rgba(105, 123, 224, 0) 35%,
+      rgba(125, 173, 238, 0.2) 60%,
+      #94e7ff
+    );
+  height: 100%;
+  min-height: 400px;
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.85);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.drawer_frame {
+  position: relative;
+}
+
+.drawer_frame video {
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: fill; */
+}
+
+.drawer_frame canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  /* height: 100%; */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.video-wrapper {
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid transparent;
+}
+
+.ant-form-item-explain.ant-form-item-explain-error div {
+  float: left;
+}
+
+.ant-form-item-control-input-content .ant-btn {
+  margin-right: 8px;
+}
+.draw {
+  margin: 16px;
+}
+textarea.ant-input {
+  margin: 16px 0;
+}
+.draw-operation {
+  margin-left: 16px;
+}
+.draw-operation .ant-btn-primary {
+  margin-right: 8px;
+}

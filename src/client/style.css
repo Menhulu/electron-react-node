@@ -1,0 +1,14 @@
+.video {
+  /* border: 1px solid #545454; */
+  background: linear-gradient(180deg, #1a0051, #130632),
+    linear-gradient(
+      105deg,
+      #aca1f7,
+      rgba(105, 123, 224, 0) 35%,
+      rgba(125, 173, 238, 0.2) 60%,
+      #94e7ff
+    );
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid transparent;
+}
